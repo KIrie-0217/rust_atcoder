@@ -138,6 +138,11 @@ path = "./src/abc262/a.rs"
 
 
 [[bin]]
+name = "full_enumeration_joi2998d"
+path = "./src/seisen100/full_search/full_enumeration/joi2998d.rs"
+
+
+[[bin]]
 name = "full_enumeration_pken2019c"
 path = "./src/seisen100/full_search/full_enumeration/pken2019c.rs"
 
@@ -165,6 +170,11 @@ path = "./src/seisen100/full_search/full_enumeration/106b.rs"
 [[bin]]
 name = "full_enumeration_joi2007c"
 path = "./src/seisen100/full_search/full_enumeration/joi2007c.rs"
+
+
+[[bin]]
+name = "full_enumeration_square869120b"
+path = "./src/seisen100/full_search/full_enumeration/square869120b.rs"
 
 
 [[bin]]
