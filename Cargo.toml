@@ -123,6 +123,31 @@ path = "./src/main.rs"
 
 
 [[bin]]
+name = "abc263_e"
+path = "./src/abc263/e.rs"
+
+
+[[bin]]
+name = "abc263_b"
+path = "./src/abc263/b.rs"
+
+
+[[bin]]
+name = "abc263_c"
+path = "./src/abc263/c.rs"
+
+
+[[bin]]
+name = "abc263_a"
+path = "./src/abc263/a.rs"
+
+
+[[bin]]
+name = "abc263_d"
+path = "./src/abc263/d.rs"
+
+
+[[bin]]
 name = "abc262_b"
 path = "./src/abc262/b.rs"
 
@@ -178,5 +203,75 @@ path = "./src/seisen100/full_search/full_enumeration/square869120b.rs"
 
 
 [[bin]]
+name = "bit_full_search_abc128"
+path = "./src/seisen100/full_search/bit_full_search/abc128.rs"
+
+
+[[bin]]
+name = "bit_full_search_ALDS1_5_A"
+path = "./src/seisen100/full_search/bit_full_search/ALDS1_5_A.rs"
+
+
+[[bin]]
+name = "abc264_b"
+path = "./src/abc264/b.rs"
+
+
+[[bin]]
+name = "abc264_c"
+path = "./src/abc264/c.rs"
+
+
+[[bin]]
+name = "abc264_a"
+path = "./src/abc264/a.rs"
+
+
+[[bin]]
+name = "abc264_d"
+path = "./src/abc264/d.rs"
+
+
+[[bin]]
 name = "sandbox_hash_vs_vec"
 path = "./src/sandbox/hash_vs_vec.rs"
+
+
+[[bin]]
+name = "abc265_e"
+path = "./src/abc265/e.rs"
+
+
+[[bin]]
+name = "abc265_b"
+path = "./src/abc265/b.rs"
+
+
+[[bin]]
+name = "abc265__ex"
+path = "./src/abc265/_ex.rs"
+
+
+[[bin]]
+name = "abc265_f"
+path = "./src/abc265/f.rs"
+
+
+[[bin]]
+name = "abc265_g"
+path = "./src/abc265/g.rs"
+
+
+[[bin]]
+name = "abc265_c"
+path = "./src/abc265/c.rs"
+
+
+[[bin]]
+name = "abc265_a"
+path = "./src/abc265/a.rs"
+
+
+[[bin]]
+name = "abc265_d"
+path = "./src/abc265/d.rs"
