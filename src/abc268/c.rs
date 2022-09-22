@@ -4,6 +4,9 @@ use itertools::Itertools;
 fn main(){
 
     input!{
-        n:usize
+        n:usize,
+        p:[ usize ; n]
     }
+
+    println!("{:?}", p);
 }

@@ -123,6 +123,46 @@ path = "./src/main.rs"
 
 
 [[bin]]
+name = "abc266_e"
+path = "./src/abc266/e.rs"
+
+
+[[bin]]
+name = "abc266_b"
+path = "./src/abc266/b.rs"
+
+
+[[bin]]
+name = "abc266__ex"
+path = "./src/abc266/_ex.rs"
+
+
+[[bin]]
+name = "abc266_f"
+path = "./src/abc266/f.rs"
+
+
+[[bin]]
+name = "abc266_g"
+path = "./src/abc266/g.rs"
+
+
+[[bin]]
+name = "abc266_c"
+path = "./src/abc266/c.rs"
+
+
+[[bin]]
+name = "abc266_a"
+path = "./src/abc266/a.rs"
+
+
+[[bin]]
+name = "abc266_d"
+path = "./src/abc266/d.rs"
+
+
+[[bin]]
 name = "abc263_e"
 path = "./src/abc263/e.rs"
 
@@ -160,6 +200,21 @@ path = "./src/abc262/c.rs"
 [[bin]]
 name = "abc262_a"
 path = "./src/abc262/a.rs"
+
+
+[[bin]]
+name = "permutation_search_abc145c"
+path = "./src/seisen100/full_search/permutation_search/abc145c.rs"
+
+
+[[bin]]
+name = "permutation_search_abc150c"
+path = "./src/seisen100/full_search/permutation_search/abc150c.rs"
+
+
+[[bin]]
+name = "permutation_search_aoj_8queen_problem"
+path = "./src/seisen100/full_search/permutation_search/aoj_8queen_problem.rs"
 
 
 [[bin]]
@@ -203,6 +258,21 @@ path = "./src/seisen100/full_search/full_enumeration/square869120b.rs"
 
 
 [[bin]]
+name = "bit_full_search_square869120_b"
+path = "./src/seisen100/full_search/bit_full_search/square869120_b.rs"
+
+
+[[bin]]
+name = "bit_full_search_joi07e"
+path = "./src/seisen100/full_search/bit_full_search/joi07e.rs"
+
+
+[[bin]]
+name = "bit_full_search_abc002d"
+path = "./src/seisen100/full_search/bit_full_search/abc002d.rs"
+
+
+[[bin]]
 name = "bit_full_search_abc128"
 path = "./src/seisen100/full_search/bit_full_search/abc128.rs"
 
@@ -210,6 +280,11 @@ path = "./src/seisen100/full_search/bit_full_search/abc128.rs"
 [[bin]]
 name = "bit_full_search_ALDS1_5_A"
 path = "./src/seisen100/full_search/bit_full_search/ALDS1_5_A.rs"
+
+
+[[bin]]
+name = "binary_search_ALDS1_4_B"
+path = "./src/seisen100/binary_search/ALDS1_4_B.rs"
 
 
 [[bin]]
@@ -235,6 +310,46 @@ path = "./src/abc264/d.rs"
 [[bin]]
 name = "sandbox_hash_vs_vec"
 path = "./src/sandbox/hash_vs_vec.rs"
+
+
+[[bin]]
+name = "abc267_e"
+path = "./src/abc267/e.rs"
+
+
+[[bin]]
+name = "abc267_b"
+path = "./src/abc267/b.rs"
+
+
+[[bin]]
+name = "abc267__ex"
+path = "./src/abc267/_ex.rs"
+
+
+[[bin]]
+name = "abc267_f"
+path = "./src/abc267/f.rs"
+
+
+[[bin]]
+name = "abc267_g"
+path = "./src/abc267/g.rs"
+
+
+[[bin]]
+name = "abc267_c"
+path = "./src/abc267/c.rs"
+
+
+[[bin]]
+name = "abc267_a"
+path = "./src/abc267/a.rs"
+
+
+[[bin]]
+name = "abc267_d"
+path = "./src/abc267/d.rs"
 
 
 [[bin]]
@@ -275,3 +390,19 @@ path = "./src/abc265/a.rs"
 [[bin]]
 name = "abc265_d"
 path = "./src/abc265/d.rs"
+
+[[bin]]
+name = "abc268_a"
+path = "./src/abc268/a.rs"
+
+[[bin]]
+name = "abc268_b"
+path = "./src/abc268/b.rs"
+
+[[bin]]
+name = "abc268_c"
+path = "./src/abc268/c.rs"
+
+[[bin]]
+name = "abc268_d"
+path = "./src/abc268/d.rs"

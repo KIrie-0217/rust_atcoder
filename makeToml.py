@@ -2,7 +2,7 @@ import os
 import glob
 import shutil
 
-def main() -> None:
+def main():
     file_list = []
     file_list.extend( glob.glob( "./src/**/*.rs" , recursive=True) )
     print( file_list )
@@ -11,7 +11,8 @@ def main() -> None:
     shutil.copy("Cargo_template.toml" , out_file)
 
     with open( out_file ,"a") as file:
-        file.write( "\n# ここから自動生成　--------------------------------\n")
+
+
         for i in file_list:
             path = i
             if not "lib" in path:
