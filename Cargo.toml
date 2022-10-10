@@ -114,8 +114,6 @@ smallvec = "=1.2.0"
 
 [dev-dependencies]
 cli_test_dir = "0.1"
-# ここから自動生成　--------------------------------
-
 
 [[bin]]
 name = "src_main"
@@ -123,83 +121,63 @@ path = "./src/main.rs"
 
 
 [[bin]]
-name = "abc266_e"
-path = "./src/abc266/e.rs"
+name = "abc268_b"
+path = "./src/abc268/b.rs"
 
 
 [[bin]]
-name = "abc266_b"
-path = "./src/abc266/b.rs"
+name = "abc268_g"
+path = "./src/abc268/g.rs"
 
 
 [[bin]]
-name = "abc266__ex"
-path = "./src/abc266/_ex.rs"
+name = "abc268__ex"
+path = "./src/abc268/_ex.rs"
 
 
 [[bin]]
-name = "abc266_f"
-path = "./src/abc266/f.rs"
+name = "abc268_a"
+path = "./src/abc268/a.rs"
 
 
 [[bin]]
-name = "abc266_g"
-path = "./src/abc266/g.rs"
+name = "abc268_f"
+path = "./src/abc268/f.rs"
 
 
 [[bin]]
-name = "abc266_c"
-path = "./src/abc266/c.rs"
+name = "abc268_c"
+path = "./src/abc268/c.rs"
 
 
 [[bin]]
-name = "abc266_a"
-path = "./src/abc266/a.rs"
+name = "abc268_d"
+path = "./src/abc268/d.rs"
 
 
 [[bin]]
-name = "abc266_d"
-path = "./src/abc266/d.rs"
+name = "abc268_e"
+path = "./src/abc268/e.rs"
 
 
 [[bin]]
-name = "abc263_e"
-path = "./src/abc263/e.rs"
+name = "abc264_b"
+path = "./src/abc264/b.rs"
 
 
 [[bin]]
-name = "abc263_b"
-path = "./src/abc263/b.rs"
+name = "abc264_a"
+path = "./src/abc264/a.rs"
 
 
 [[bin]]
-name = "abc263_c"
-path = "./src/abc263/c.rs"
+name = "abc264_c"
+path = "./src/abc264/c.rs"
 
 
 [[bin]]
-name = "abc263_a"
-path = "./src/abc263/a.rs"
-
-
-[[bin]]
-name = "abc263_d"
-path = "./src/abc263/d.rs"
-
-
-[[bin]]
-name = "abc262_b"
-path = "./src/abc262/b.rs"
-
-
-[[bin]]
-name = "abc262_c"
-path = "./src/abc262/c.rs"
-
-
-[[bin]]
-name = "abc262_a"
-path = "./src/abc262/a.rs"
+name = "abc264_d"
+path = "./src/abc264/d.rs"
 
 
 [[bin]]
@@ -208,13 +186,13 @@ path = "./src/seisen100/full_search/permutation_search/abc145c.rs"
 
 
 [[bin]]
-name = "permutation_search_abc150c"
-path = "./src/seisen100/full_search/permutation_search/abc150c.rs"
+name = "permutation_search_aoj_8queen_problem"
+path = "./src/seisen100/full_search/permutation_search/aoj_8queen_problem.rs"
 
 
 [[bin]]
-name = "permutation_search_aoj_8queen_problem"
-path = "./src/seisen100/full_search/permutation_search/aoj_8queen_problem.rs"
+name = "permutation_search_abc150c"
+path = "./src/seisen100/full_search/permutation_search/abc150c.rs"
 
 
 [[bin]]
@@ -223,28 +201,13 @@ path = "./src/seisen100/full_search/full_enumeration/joi2998d.rs"
 
 
 [[bin]]
-name = "full_enumeration_pken2019c"
-path = "./src/seisen100/full_search/full_enumeration/pken2019c.rs"
-
-
-[[bin]]
-name = "full_enumeration_095c"
-path = "./src/seisen100/full_search/full_enumeration/095c.rs"
-
-
-[[bin]]
-name = "full_enumeration_122b"
-path = "./src/seisen100/full_search/full_enumeration/122b.rs"
-
-
-[[bin]]
 name = "full_enumeration_sumishin2019d"
 path = "./src/seisen100/full_search/full_enumeration/sumishin2019d.rs"
 
 
 [[bin]]
-name = "full_enumeration_106b"
-path = "./src/seisen100/full_search/full_enumeration/106b.rs"
+name = "full_enumeration_pken2019c"
+path = "./src/seisen100/full_search/full_enumeration/pken2019c.rs"
 
 
 [[bin]]
@@ -253,18 +216,28 @@ path = "./src/seisen100/full_search/full_enumeration/joi2007c.rs"
 
 
 [[bin]]
+name = "full_enumeration_095c"
+path = "./src/seisen100/full_search/full_enumeration/095c.rs"
+
+
+[[bin]]
+name = "full_enumeration_106b"
+path = "./src/seisen100/full_search/full_enumeration/106b.rs"
+
+
+[[bin]]
+name = "full_enumeration_122b"
+path = "./src/seisen100/full_search/full_enumeration/122b.rs"
+
+
+[[bin]]
 name = "full_enumeration_square869120b"
 path = "./src/seisen100/full_search/full_enumeration/square869120b.rs"
 
 
 [[bin]]
-name = "bit_full_search_square869120_b"
-path = "./src/seisen100/full_search/bit_full_search/square869120_b.rs"
-
-
-[[bin]]
-name = "bit_full_search_joi07e"
-path = "./src/seisen100/full_search/bit_full_search/joi07e.rs"
+name = "bit_full_search_abc128"
+path = "./src/seisen100/full_search/bit_full_search/abc128.rs"
 
 
 [[bin]]
@@ -273,8 +246,13 @@ path = "./src/seisen100/full_search/bit_full_search/abc002d.rs"
 
 
 [[bin]]
-name = "bit_full_search_abc128"
-path = "./src/seisen100/full_search/bit_full_search/abc128.rs"
+name = "bit_full_search_joi07e"
+path = "./src/seisen100/full_search/bit_full_search/joi07e.rs"
+
+
+[[bin]]
+name = "bit_full_search_square869120_b"
+path = "./src/seisen100/full_search/bit_full_search/square869120_b.rs"
 
 
 [[bin]]
@@ -288,33 +266,18 @@ path = "./src/seisen100/binary_search/ALDS1_4_B.rs"
 
 
 [[bin]]
-name = "abc264_b"
-path = "./src/abc264/b.rs"
+name = "abc262_b"
+path = "./src/abc262/b.rs"
 
 
 [[bin]]
-name = "abc264_c"
-path = "./src/abc264/c.rs"
+name = "abc262_a"
+path = "./src/abc262/a.rs"
 
 
 [[bin]]
-name = "abc264_a"
-path = "./src/abc264/a.rs"
-
-
-[[bin]]
-name = "abc264_d"
-path = "./src/abc264/d.rs"
-
-
-[[bin]]
-name = "sandbox_hash_vs_vec"
-path = "./src/sandbox/hash_vs_vec.rs"
-
-
-[[bin]]
-name = "abc267_e"
-path = "./src/abc267/e.rs"
+name = "abc262_c"
+path = "./src/abc262/c.rs"
 
 
 [[bin]]
@@ -323,23 +286,13 @@ path = "./src/abc267/b.rs"
 
 
 [[bin]]
-name = "abc267__ex"
-path = "./src/abc267/_ex.rs"
-
-
-[[bin]]
-name = "abc267_f"
-path = "./src/abc267/f.rs"
-
-
-[[bin]]
 name = "abc267_g"
 path = "./src/abc267/g.rs"
 
 
 [[bin]]
-name = "abc267_c"
-path = "./src/abc267/c.rs"
+name = "abc267__ex"
+path = "./src/abc267/_ex.rs"
 
 
 [[bin]]
@@ -348,13 +301,128 @@ path = "./src/abc267/a.rs"
 
 
 [[bin]]
+name = "abc267_f"
+path = "./src/abc267/f.rs"
+
+
+[[bin]]
+name = "abc267_c"
+path = "./src/abc267/c.rs"
+
+
+[[bin]]
 name = "abc267_d"
 path = "./src/abc267/d.rs"
 
 
 [[bin]]
-name = "abc265_e"
-path = "./src/abc265/e.rs"
+name = "abc267_e"
+path = "./src/abc267/e.rs"
+
+
+[[bin]]
+name = "abc271_b"
+path = "./src/abc271/b.rs"
+
+
+[[bin]]
+name = "abc271_g"
+path = "./src/abc271/g.rs"
+
+
+[[bin]]
+name = "abc271__ex"
+path = "./src/abc271/_ex.rs"
+
+
+[[bin]]
+name = "abc271_a"
+path = "./src/abc271/a.rs"
+
+
+[[bin]]
+name = "abc271_f"
+path = "./src/abc271/f.rs"
+
+
+[[bin]]
+name = "abc271_c"
+path = "./src/abc271/c.rs"
+
+
+[[bin]]
+name = "abc271_d"
+path = "./src/abc271/d.rs"
+
+
+[[bin]]
+name = "abc271_e"
+path = "./src/abc271/e.rs"
+
+
+[[bin]]
+name = "abc263_b"
+path = "./src/abc263/b.rs"
+
+
+[[bin]]
+name = "abc263_a"
+path = "./src/abc263/a.rs"
+
+
+[[bin]]
+name = "abc263_c"
+path = "./src/abc263/c.rs"
+
+
+[[bin]]
+name = "abc263_d"
+path = "./src/abc263/d.rs"
+
+
+[[bin]]
+name = "abc263_e"
+path = "./src/abc263/e.rs"
+
+
+[[bin]]
+name = "abc272_b"
+path = "./src/abc272/b.rs"
+
+
+[[bin]]
+name = "abc272_g"
+path = "./src/abc272/g.rs"
+
+
+[[bin]]
+name = "abc272__ex"
+path = "./src/abc272/_ex.rs"
+
+
+[[bin]]
+name = "abc272_a"
+path = "./src/abc272/a.rs"
+
+
+[[bin]]
+name = "abc272_f"
+path = "./src/abc272/f.rs"
+
+
+[[bin]]
+name = "abc272_c"
+path = "./src/abc272/c.rs"
+
+
+[[bin]]
+name = "abc272_d"
+path = "./src/abc272/d.rs"
+
+
+[[bin]]
+name = "abc272_e"
+path = "./src/abc272/e.rs"
 
 
 [[bin]]
@@ -363,23 +431,13 @@ path = "./src/abc265/b.rs"
 
 
 [[bin]]
-name = "abc265__ex"
-path = "./src/abc265/_ex.rs"
-
-
-[[bin]]
-name = "abc265_f"
-path = "./src/abc265/f.rs"
-
-
-[[bin]]
 name = "abc265_g"
 path = "./src/abc265/g.rs"
 
 
 [[bin]]
-name = "abc265_c"
-path = "./src/abc265/c.rs"
+name = "abc265__ex"
+path = "./src/abc265/_ex.rs"
 
 
 [[bin]]
@@ -388,21 +446,65 @@ path = "./src/abc265/a.rs"
 
 
 [[bin]]
+name = "abc265_f"
+path = "./src/abc265/f.rs"
+
+
+[[bin]]
+name = "abc265_c"
+path = "./src/abc265/c.rs"
+
+
+[[bin]]
 name = "abc265_d"
 path = "./src/abc265/d.rs"
 
-[[bin]]
-name = "abc268_a"
-path = "./src/abc268/a.rs"
 
 [[bin]]
-name = "abc268_b"
-path = "./src/abc268/b.rs"
+name = "abc265_e"
+path = "./src/abc265/e.rs"
+
 
 [[bin]]
-name = "abc268_c"
-path = "./src/abc268/c.rs"
+name = "abc266_b"
+path = "./src/abc266/b.rs"
+
 
 [[bin]]
-name = "abc268_d"
-path = "./src/abc268/d.rs"
+name = "abc266_g"
+path = "./src/abc266/g.rs"
+
+
+[[bin]]
+name = "abc266__ex"
+path = "./src/abc266/_ex.rs"
+
+
+[[bin]]
+name = "abc266_a"
+path = "./src/abc266/a.rs"
+
+
+[[bin]]
+name = "abc266_f"
+path = "./src/abc266/f.rs"
+
+
+[[bin]]
+name = "abc266_c"
+path = "./src/abc266/c.rs"
+
+
+[[bin]]
+name = "abc266_d"
+path = "./src/abc266/d.rs"
+
+
+[[bin]]
+name = "abc266_e"
+path = "./src/abc266/e.rs"
+
+
+[[bin]]
+name = "sandbox_hash_vs_vec"
+path = "./src/sandbox/hash_vs_vec.rs"

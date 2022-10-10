@@ -16,4 +16,4 @@ cp ./src/main.rs "${newcontest}/f.rs"
 cp ./src/main.rs "${newcontest}/g.rs"
 cp ./src/main.rs "${newcontest}/_ex.rs"
 
-python makeToml.py
+python3 makeToml.py
