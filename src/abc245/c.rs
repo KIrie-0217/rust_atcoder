@@ -1,48 +1,5 @@
 use proconio::input;
 
-fn dfs(
-    current_vec: &mut Vec<i64>,
-    current_index: usize,
-    last_index: usize,
-    a_vec: &Vec<i64>,
-    b_vec: &Vec<i64>,
-    k: i64,
-) -> bool {
-    if current_index == last_index {
-        return true;
-    }
-    let mut checker: bool = false;
-    if (current_vec[current_index] - a_vec[current_index + 1]).abs() <= k {
-        current_vec.push(a_vec[current_index + 1].clone());
-        checker = dfs(
-            current_vec,
-            current_index + 1,
-            last_index,
-            &a_vec,
-            &b_vec,
-            k,
-        );
-    }
-
-    if (current_vec[current_index] - b_vec[current_index + 1]).abs() <= k && !checker {
-        current_vec.push(b_vec[current_index + 1].clone());
-        checker = dfs(
-            current_vec,
-            current_index + 1,
-            last_index,
-            &a_vec,
-            &b_vec,
-            k,
-        );
-    }
-
-    if !checker {
-        current_vec.pop();
-    }
-
-    return checker;
-}
-
 fn main() {
     input! {
         n:usize,
@@ -51,19 +8,30 @@ fn main() {
         mut b_vec :[i64;n]
     }
 
-    let mut n_vec: Vec<i64> = Vec::<i64>::new();
-    let mut checker: bool;
+    let mut dp: Vec<Vec<bool>> = Vec::<Vec<bool>>::new();
+    dp.push(vec![true, true]);
 
-    n_vec.push(a_vec[0].clone());
-    checker = dfs(&mut n_vec, 0 as usize, n - 1, &a_vec, &b_vec, k);
-
-    if !checker {
-        n_vec.pop();
-        n_vec.push(b_vec[0].clone());
-        checker = dfs(&mut n_vec, 0 as usize, n - 1, &a_vec, &b_vec, k);
+    for i in 0..n - 1 {
+        dp.push(vec![false, false]);
+        if dp[i][0] {
+            if (a_vec[i] - a_vec[i + 1]).abs() <= k {
+                dp[i + 1][0] = true;
+            }
+            if (a_vec[i] - b_vec[i + 1]).abs() <= k {
+                dp[i + 1][1] = true;
+            }
+        }
+        if dp[i][1] {
+            if (b_vec[i] - a_vec[i + 1]).abs() <= k {
+                dp[i + 1][0] = true;
+            }
+            if (b_vec[i] - b_vec[i + 1]).abs() <= k {
+                dp[i + 1][1] = true;
+            }
+        }
     }
 
-    if checker {
+    if dp[n - 1][0] | dp[n - 1][1] {
         println!("Yes");
     } else {
         println!("No");

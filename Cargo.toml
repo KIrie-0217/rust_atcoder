@@ -746,6 +746,46 @@ path = "./src/abc272/e.rs"
 
 
 [[bin]]
+name = "abc086_b"
+path = "./src/abc086/b.rs"
+
+
+[[bin]]
+name = "abc086_g"
+path = "./src/abc086/g.rs"
+
+
+[[bin]]
+name = "abc086__ex"
+path = "./src/abc086/_ex.rs"
+
+
+[[bin]]
+name = "abc086_a"
+path = "./src/abc086/a.rs"
+
+
+[[bin]]
+name = "abc086_f"
+path = "./src/abc086/f.rs"
+
+
+[[bin]]
+name = "abc086_c"
+path = "./src/abc086/c.rs"
+
+
+[[bin]]
+name = "abc086_d"
+path = "./src/abc086/d.rs"
+
+
+[[bin]]
+name = "abc086_e"
+path = "./src/abc086/e.rs"
+
+
+[[bin]]
 name = "abc265_b"
 path = "./src/abc265/b.rs"
 
