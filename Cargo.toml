@@ -321,6 +321,46 @@ path = "./src/abc262/c.rs"
 
 
 [[bin]]
+name = "abc284_b"
+path = "./src/abc284/b.rs"
+
+
+[[bin]]
+name = "abc284_g"
+path = "./src/abc284/g.rs"
+
+
+[[bin]]
+name = "abc284__ex"
+path = "./src/abc284/_ex.rs"
+
+
+[[bin]]
+name = "abc284_a"
+path = "./src/abc284/a.rs"
+
+
+[[bin]]
+name = "abc284_f"
+path = "./src/abc284/f.rs"
+
+
+[[bin]]
+name = "abc284_c"
+path = "./src/abc284/c.rs"
+
+
+[[bin]]
+name = "abc284_d"
+path = "./src/abc284/d.rs"
+
+
+[[bin]]
+name = "abc284_e"
+path = "./src/abc284/e.rs"
+
+
+[[bin]]
 name = "abc277_b"
 path = "./src/abc277/b.rs"
 
@@ -478,6 +518,46 @@ path = "./src/abc275/d.rs"
 [[bin]]
 name = "abc275_e"
 path = "./src/abc275/e.rs"
+
+
+[[bin]]
+name = "abc207_b"
+path = "./src/abc207/b.rs"
+
+
+[[bin]]
+name = "abc207_g"
+path = "./src/abc207/g.rs"
+
+
+[[bin]]
+name = "abc207__ex"
+path = "./src/abc207/_ex.rs"
+
+
+[[bin]]
+name = "abc207_a"
+path = "./src/abc207/a.rs"
+
+
+[[bin]]
+name = "abc207_f"
+path = "./src/abc207/f.rs"
+
+
+[[bin]]
+name = "abc207_c"
+path = "./src/abc207/c.rs"
+
+
+[[bin]]
+name = "abc207_d"
+path = "./src/abc207/d.rs"
+
+
+[[bin]]
+name = "abc207_e"
+path = "./src/abc207/e.rs"
 
 
 [[bin]]
@@ -756,6 +836,46 @@ path = "./src/abc282/e.rs"
 
 
 [[bin]]
+name = "abc245_b"
+path = "./src/abc245/b.rs"
+
+
+[[bin]]
+name = "abc245_g"
+path = "./src/abc245/g.rs"
+
+
+[[bin]]
+name = "abc245__ex"
+path = "./src/abc245/_ex.rs"
+
+
+[[bin]]
+name = "abc245_a"
+path = "./src/abc245/a.rs"
+
+
+[[bin]]
+name = "abc245_f"
+path = "./src/abc245/f.rs"
+
+
+[[bin]]
+name = "abc245_c"
+path = "./src/abc245/c.rs"
+
+
+[[bin]]
+name = "abc245_d"
+path = "./src/abc245/d.rs"
+
+
+[[bin]]
+name = "abc245_e"
+path = "./src/abc245/e.rs"
+
+
+[[bin]]
 name = "abc266_b"
 path = "./src/abc266/b.rs"
 
@@ -953,6 +1073,46 @@ path = "./src/abc269/d.rs"
 [[bin]]
 name = "abc269_e"
 path = "./src/abc269/e.rs"
+
+
+[[bin]]
+name = "arc011_b"
+path = "./src/arc011/b.rs"
+
+
+[[bin]]
+name = "arc011_g"
+path = "./src/arc011/g.rs"
+
+
+[[bin]]
+name = "arc011__ex"
+path = "./src/arc011/_ex.rs"
+
+
+[[bin]]
+name = "arc011_a"
+path = "./src/arc011/a.rs"
+
+
+[[bin]]
+name = "arc011_f"
+path = "./src/arc011/f.rs"
+
+
+[[bin]]
+name = "arc011_c"
+path = "./src/arc011/c.rs"
+
+
+[[bin]]
+name = "arc011_d"
+path = "./src/arc011/d.rs"
+
+
+[[bin]]
+name = "arc011_e"
+path = "./src/arc011/e.rs"
 
 
 [[bin]]
